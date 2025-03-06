@@ -136,12 +136,12 @@ function grade_calculator(percentage){
       // console.log("C");
     }else if (percentage >= 60) {
       grade="D"
-      console.log("D");
+      //console.log("D");
     }else (percentage < 60)
-    grade= "F"
-      console.log("F");
-
+    grade= "F";
+      //console.log("F");
       return grade
+
 
   
 }
