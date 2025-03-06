@@ -121,31 +121,37 @@
 
 // let student_1= grade_calculator(73)
 // console.log("Student one grade", student1_grade)
-function grade_calculator(percentage){
-  let grade;
-    if (percentage >= 90 && percentage<= 100) {
-      grade= "A"
+// function grade_calculator(percentage){
+//   let grade;
+//     if (percentage >= 90 && percentage<= 100) {
+//       grade= "A"
 
-      // console.log("A");
-      // console.log(percentage, "=>", "A")
-    }else if (percentage >= 80) {
-      grade= "B"
-      // console.log("B");
-    }else if (percentage >= 70) {
-      grade="C"
-      // console.log("C");
-    }else if (percentage >= 60) {
-      grade="D"
-      //console.log("D");
-    }else (percentage < 60)
-    grade= "F";
-      //console.log("F");
-      return grade
+//       // console.log("A");
+//       // console.log(percentage, "=>", "A")
+//     }else if (percentage >= 80) {
+//       grade= "B"
+//       // console.log("B");
+//     }else if (percentage >= 70) {
+//       grade="C"
+//       // console.log("C");
+//     }else if (percentage >= 60) {
+//       grade="D"
+//       //console.log("D");
+//     }else (percentage < 60)
+//     grade= "F";
+//       //console.log("F");
+//       return grade
 
 
   
-}
-const name= prompt("Enter the student name")
-const percentage = parseInt(prompt("Enter Grade"))
+// }
+// const name= prompt("Enter the student name")
+// const percentage = parseInt(prompt("Enter Grade"))
 
-console.log(`${name} has gotten ${grade_calculator(percentage)}`)
+// console.log(`${name} has gotten ${grade_calculator(percentage)}`)
+
+
+let i;
+for(let i= 0; i<=10; i++){
+  console.log (i)
+};
