@@ -51,16 +51,101 @@
 // const largest= Math.max(num1,num2,num3);
 // console.log(`The largest number is : ${largest}`);
 
-let grade=71;
+// let grade=71;
 
-if(grade> 90) {
-    console.log("A")
-}else if (grade>80){
-    console.log("B")
-}else if (grade>70) {
-    console.log("c")
-}else if (grade>60) {
-    console.log("D")
-}else (grade<60) 
-    console.log("F")
+// if(grade> 90) {
+//     console.log("A")
+// }else if (grade>80){
+//     console.log("B")
+// }else if (grade>70) {
+//     console.log("c")
+// }else if (grade>60) {
+//     console.log("D")
+// }else (grade<60) 
+//     console.log("F")
 
+// const speedLimit = 1000;
+// let current_speed = 0;
+// let gear = 1;
+
+// while (current_speed <= speedLimit) {
+//   console.log(`The speed is ${current_speed}`);
+//   current_speed++;
+
+//   //Gear shifts after every 30km
+
+//   if (current_speed < 30) {
+//     gear = 1;
+//   } else if (current_speed < 60) {
+//     gear = 2;
+//   }
+// }
+
+// for(let i=0;i<10; i++ ){
+//     console.log(i)
+
+// }
+// let names= "hafsa,Egal, Abdi"
+// console.log(names.length)
+
+// for (let i = 0; i < names.length; i++) {
+//   console.log(names.charAt(i));
+// }
+
+// 
+// prompt("Enter grade")
+// function grade_calculator(percentage){
+//     let grade;
+//   if (percentage >= 90 && percentage<= 100) {
+//     grade= "A"
+
+//     // console.log("A");
+//     // console.log(percentage, "=>", "A")
+//   }else if (percentage >= 80) {
+//     grade= "B"
+//     // console.log("B");
+//   }else if (percentage >= 70) {
+//     grade="C"
+//     // console.log("C");
+//   }else if (percentage >= 60) {
+//     grade="D"
+//     console.log("D");
+//   }else (percentage < 60) 
+//   grade= "F"
+//     console.log("F");
+
+//     return grade
+
+// }
+
+
+// let student_1= grade_calculator(73)
+// console.log("Student one grade", student1_grade)
+function grade_calculator(percentage){
+  let grade;
+    if (percentage >= 90 && percentage<= 100) {
+      grade= "A"
+
+      // console.log("A");
+      // console.log(percentage, "=>", "A")
+    }else if (percentage >= 80) {
+      grade= "B"
+      // console.log("B");
+    }else if (percentage >= 70) {
+      grade="C"
+      // console.log("C");
+    }else if (percentage >= 60) {
+      grade="D"
+      console.log("D");
+    }else (percentage < 60)
+    grade= "F"
+      console.log("F");
+
+      return grade
+
+  
+}
+const name= prompt("Enter the student name")
+const percentage = parseInt(prompt("Enter Grade"))
+
+console.log(`${name} has gotten ${grade_calculator(percentage)}`)
