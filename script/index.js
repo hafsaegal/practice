@@ -207,6 +207,31 @@ for(let i=0; i<fruit.length;i++) {
 
 };
 
+function scuberGreetingForFeet(ride){
+  // Write your code here!
+  let ride;
+  if(ride<=400) {
+  console.log("This one is on me!");
+  }else if(ride>=400 ||ride<=2000){
+  console.log("That will be twenty bucks.");
+  }else if(ride >2000){
+  console.log("I will gladly take your thirty bucks.");
+  }else if(ride<2500){
+  console.log("No can do.");
+  }
+  return ride
 
+}
+ride(119)
+
+function ternaryCheckCity(){
+  // Write your code here!
+  console.log("")
+}
+
+function switchOnCharmFromTip(){
+  // Write your code here!
+  
+  added
 
 
